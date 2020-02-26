@@ -14,7 +14,9 @@ Button("Tap me") {
 
 
 ### Image
-* před použitím obrázku je potřeba jej přetáhnout do složky `Assets` a přejmenovat
+* před použitím obrázku je potřeba jej přetáhnout do složky `Assets.xcassets` a přejmenovat jej na "yosemite"
+* nastavíme výšku, šířku a vysekneme jej do tvaru kruhu
+* obrázek lze ze své původní pozice odadit o -100
 
 ```swift
 struct IView: View {
@@ -23,6 +25,7 @@ struct IView: View {
             .resizable()
             .frame(width: 120, height: 120)
             .clipShape(Circle())
+             .offset(y: -100)
 
     }
 }
