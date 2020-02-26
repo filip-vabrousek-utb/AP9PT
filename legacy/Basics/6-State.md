@@ -1,6 +1,5 @@
 
 ```swift
-// Next Counter
 struct Counter: View {
     @State var count = 0
 
