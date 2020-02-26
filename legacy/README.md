@@ -4,4 +4,4 @@ FAI SwiftUI course
 ## Contents
 ### 1 - Basics
 ### 2 - Advanced
-### 3 - Tasks - complete app
+### 3 - Complete app
