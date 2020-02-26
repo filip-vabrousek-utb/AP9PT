@@ -24,11 +24,11 @@ struct ContentView: View {
 ```
 
 ## Spacer
-* flexibilní mezera mezi pohledy
+* flexibilní mezera mezi Views
 ```swift
 HStack {
-       Text("Pushed to the left.")
-       Spacer()
-       Text("Pushed to the right.")
+   Text("Pushed to the left.")
+   Spacer()
+   Text("Pushed to the right.")
 }
 ```
