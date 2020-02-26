@@ -21,6 +21,7 @@ FAI SwiftUI course
 2.5 - MacOS Support  
 2.5 - WatchOS Support   
 
+
 ### 3 - Complete app
 3.1 - Intro  
 3.2 - Code  
