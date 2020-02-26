@@ -13,7 +13,8 @@ FAI SwiftUI course
 1.8 - TabBar  
 
 
-### 2 - Advanced
+### 2 - Advanced  
+2.0 - EnvironmentObject  - https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views  
 2.1 - GeometryReader  
 2.2 - GeometryProxy  
 2.3 - GeometryEffect  
