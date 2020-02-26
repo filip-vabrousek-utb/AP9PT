@@ -1,4 +1,4 @@
-# SwiftUI-FAI
+# SwiftUI Course
 FAI SwiftUI course
 
 ## Contents
