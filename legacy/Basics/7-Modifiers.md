@@ -1,4 +1,4 @@
-## Modifiers
+# Modifiers
 * upravují daný ```View```
 * někdy záleží na pořadí
 
