@@ -26,7 +26,6 @@ struct ToggleView: View {
             }.labelsHidden()
         }
     }
-}}
 }
 ```
 
@@ -46,12 +45,6 @@ struct SliderView: View {
     }
 }
 ```
-
-
-
-
-
-
 
 
 ### Image
