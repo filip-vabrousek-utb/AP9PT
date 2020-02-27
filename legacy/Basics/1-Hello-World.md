@@ -19,4 +19,17 @@ struct Welcome: View {
 }
 ```
 
-d
+## Previews
+Preview Canvas slouží k živému náhledu našeho kódu. Po klepnutí na "+" v pravém horním rohu, můžeme na canvas přetáhnout jakýkoli, element. Změna Canvasu se automaticky projeví i v kódu, takže UI a kód je ve stálé synchronizaci.
+
+```swift
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        EffectView()
+            .previewDevice("iPhone 11 Pro Max")
+            .previewDisplayName("MyPreview")
+        // .frame(width: 100, height: 100)
+    }
+}
+
+```
