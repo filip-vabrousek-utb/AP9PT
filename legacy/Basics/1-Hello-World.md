@@ -25,7 +25,7 @@ Preview Canvas slouží k živému náhledu našeho kódu. Po klepnutí na "+" v
 ```swift
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        EffectView()
+        Welcome()
             .previewDevice("iPhone 11 Pro Max")
             .previewDisplayName("MyPreview")
         // .frame(width: 100, height: 100)
