@@ -4,7 +4,8 @@
 ```swift
 struct Grad: View {
     var body: some View {
-        let grad = LinearGradient(gradient: .init(colors: [.blue, .green]),
+        let grad = LinearGradient(gradient: 
+                                  .init(colors: [.blue, .green]),
                                   startPoint: .leading,
                                   endPoint: .trailing)
         
@@ -18,7 +19,8 @@ struct Grad: View {
 ## Radial
 
 ```swift
-let grad = RadialGradient(gradient: .init(colors: [.blue, .green]),
+let grad = RadialGradient(gradient: 
+                                  .init(colors: [.blue, .green]),
                                   center: .center,
                                   startRadius: 0,
                                   endRadius: 200)
