@@ -1,4 +1,4 @@
-## Cities
+# Cities app
 
 ```swift
 //
@@ -70,29 +70,43 @@ struct FavouriteView: View {
 
 struct ContentView: View {
     @EnvironmentObject var fav: Fav
+    @State var search = ""
+
+    var body: some View {
+        Group {
+            #if targetEnvironment(macCatalyst)
+                NavigationView {
+                    NavLink().navigationBarTitle("Parks")
+                }
+            #else
+                NavigationView {
+                    NavLink().navigationBarTitle("Parks")
+                }.navigationViewStyle(StackNavigationViewStyle())
+            #endif
+        }
+    } //
+}
+
+
+struct NavLink: View {
+    @EnvironmentObject var fav: Fav
 
     @State var parks = [
         Park(name: "San Francisco", lat: 38, lon: -122),
         Park(name: "New York", lat: 40, lon: -74)
     ]
 
-    @State var search = ""
-
     var body: some View {
-        NavigationView {
-            List(parks, id: \.self) { p in
-                NavigationLink(destination: DetailView(park: p)) {
-                    HStack {
-                        if (self.fav.favourites.contains(p.name)) {
-                            Image(systemName: "star.fill").foregroundColor(.yellow)
-                        }
-                        Text(p.name)
+        List(parks, id: \.self) { p in
+            NavigationLink(destination: DetailView(park: p)) {
+                HStack {
+                    if (self.fav.favourites.contains(p.name)) {
+                        Image(systemName: "star.fill").foregroundColor(.yellow)
                     }
+                    Text(p.name)
                 }
-
-            }.navigationBarTitle("Parks")
-
-        } .navigationViewStyle(StackNavigationViewStyle())
+            }
+        }
     }
 }
 
