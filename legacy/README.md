@@ -13,7 +13,7 @@ FAI SwiftUI course
 1.8 - TabBar  
 
 ### 2 - Advanced  
-2.0 - EnvironmentObject  - https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views  
+2.0 - EnvironmentObject
 2.1 - GeometryReader  
 2.2 - GeometryProxy  
 2.3 - GeometryEffect  
@@ -21,7 +21,7 @@ FAI SwiftUI course
 2.5 - Transitions
 
 ## 3 - Instagram feed clone
-3.1 - Intro
+3.1 - Intro  
 3.2 - Code
 
 ### 4 - Cities app
