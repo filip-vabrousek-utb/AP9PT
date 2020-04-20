@@ -20,7 +20,7 @@ FAI SwiftUI course
 2.4 - Animations  
 2.5 - Transitions
 
-## 3 - Instagram feed clone
+### 3 - Instagram feed clone
 3.1 - Intro  
 3.2 - Code
 
