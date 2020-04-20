@@ -13,7 +13,7 @@ FAI SwiftUI course
 1.8 - TabBar  
 
 ### 2 - Advanced  
-2.0 - EnvironmentObject
+2.0 - EnvironmentObject  
 2.1 - GeometryReader  
 2.2 - GeometryProxy  
 2.3 - GeometryEffect  
