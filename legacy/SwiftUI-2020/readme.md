@@ -10,7 +10,7 @@
 8) **TextEditor**
 9) GridItemColumns
 10) **AppStore overlay**
-11) Full-screen modal
+11) **Full-screen modal**
 12) SpriteView
 
 ### PropertyWrappers
