@@ -5,15 +5,15 @@
 2) **MapView**
 3) **VideoPlayer**
 4) **ScrollViewReader**
-4) LazyVGrid, LazyVStack (0:33)
-5) PageView
-6) ProgressView
-7) TextEditor
-8) GridItemColumns
-9) AppStore overlay
-10) Full-screen modal
-11) SpriteView
-12) PageView
+5) **LazyVGrid, LazyVStack** (0:33)
+6) PageView
+7) ProgressView
+8) TextEditor
+9) GridItemColumns
+10) AppStore overlay
+11) Full-screen modal
+12) SpriteView
+13) PageView
 
 ### PropertyWrappers
 1) @AppStorage - reactively reads UserDefaults
