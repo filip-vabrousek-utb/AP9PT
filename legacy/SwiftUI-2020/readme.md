@@ -1,5 +1,5 @@
 ## SwiftUI 2020
-* **note** only available on iOS 14, iPadOS 14, macOS Big Zur, watchOS 7 and later**
+* **note** only available on iOS 14, iPadOS 14, macOS Big Sur, watchOS 7 and later**
 
 1) **New app architecture**
 2) **MapView**
@@ -8,12 +8,11 @@
 5) **LazyVGrid, LazyVStack** (0:33)
 6) **PageView**
 8) **TextEditor**
-9) GridItemColumns
 10) **AppStore overlay**
 11) **Full-screen modal**
-12) SpriteView
-13) Links
-14) New modifiers
+12) **SpriteView**
+13) **Links**
+14) **New modifiers**
 
 ### PropertyWrappers
 1) **@AppStorage - reactively reads UserDefaults**
