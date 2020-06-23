@@ -1,4 +1,5 @@
 ## SwiftUI 2020
+* **note** only available on iOS 14, iPadOS 14, macOS Big Zur, watchOS 7 and later**
 
 1) New app architecture
 2) MapView
@@ -12,7 +13,7 @@
 9) AppStore overlay
 10) Full-screen modal
 11) SpriteView
-
+12) PageView
 
 ### PropertyWrappers
 1) @AppStorage - reactively reads UserDefaults
