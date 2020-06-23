@@ -12,10 +12,12 @@
 10) **AppStore overlay**
 11) **Full-screen modal**
 12) SpriteView
+13) Links
+14) New modifiers
 
 ### PropertyWrappers
 1) **@AppStorage - reactively reads UserDefaults**
-2) @StateObject
+2) **@StateObject**
 
 ### Controls
 1) **ColorPicker**
@@ -23,8 +25,6 @@
 3) Gauge
 4) **Label**
 5) **ProgressView**
-
-
 
 
 SOURCE: https://www.youtube.com/watch?v=uitE6bmeFxM
