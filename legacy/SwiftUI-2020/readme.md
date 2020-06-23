@@ -19,7 +19,7 @@
 
 ### Controls
 1) **ColorPicker**
-2) SignInWithAppleButton
+2) **SignInWithAppleButton**
 3) Gauge
 4) Label
 5) **ProgressView**
