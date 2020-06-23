@@ -8,7 +8,7 @@
 5) **LazyVGrid, LazyVStack** (0:33)
 6) **PageView**
 7) **ProgressView**
-8) TextEditor
+8) **TextEditor**
 9) GridItemColumns
 10) AppStore overlay
 11) Full-screen modal
