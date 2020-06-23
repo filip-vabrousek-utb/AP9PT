@@ -7,7 +7,6 @@
 4) **ScrollViewReader**
 5) **LazyVGrid, LazyVStack** (0:33)
 6) **PageView**
-7) **ProgressView**
 8) **TextEditor**
 9) GridItemColumns
 10) **AppStore overlay**
@@ -19,11 +18,11 @@
 2) @StateObject
 
 ### Controls
-1) ColorPicker
+1) **ColorPicker**
 2) SignInWithAppleButton
 3) Gauge
 4) Label
-5) ProgressView
+5) **ProgressView**
 
 
 
