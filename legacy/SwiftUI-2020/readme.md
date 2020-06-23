@@ -5,7 +5,7 @@
 2) MapView
 3) VideoPlayer
 4) ScrollViewReader
-4) LazyVGrid, LazyVStack
+4) LazyVGrid, LazyVStack (0:33)
 5) PageView
 6) ProgressView
 7) TextEditor
@@ -26,3 +26,7 @@
 4) Label
 5) ProgressView
 
+
+
+
+SOURCE: https://www.youtube.com/watch?v=uitE6bmeFxM
