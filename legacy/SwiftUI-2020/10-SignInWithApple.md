@@ -1,0 +1,10 @@
+## Sign-In with Apple
+
+```swift
+struct SignButton: View {
+    var body: some View {
+        SignInWithAppleButton(onRequest: {_ in print("Nice")},
+                              onCompletion: {_ in print("Hello")})
+    }
+}
+```
