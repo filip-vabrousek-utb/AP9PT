@@ -14,14 +14,14 @@
 12) SpriteView
 
 ### PropertyWrappers
-1) @AppStorage - reactively reads UserDefaults
+1) **@AppStorage - reactively reads UserDefaults**
 2) @StateObject
 
 ### Controls
 1) **ColorPicker**
 2) **SignInWithAppleButton**
 3) Gauge
-4) Label
+4) **Label**
 5) **ProgressView**
 
 
