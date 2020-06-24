@@ -12,3 +12,20 @@ struct MyApp: App {
     }
 }
 ```
+
+## watchOS
+
+```swift
+@main
+struct Complex_GridsApp: App {
+    @SceneBuilder var body: some Scene {
+        WindowGroup {
+            NavigationView {
+                ContentView()
+            }
+        }
+
+        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
+    }
+}
+```
