@@ -21,7 +21,7 @@ struct Complex_GridsApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                Text("Hello!")
             }
         }
 
