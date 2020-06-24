@@ -1,5 +1,5 @@
 ## SwiftUI 2020
-* **note** only available on iOS 14, iPadOS 14, macOS Big Sur, watchOS 7 and later**
+* **note** only available on iOS 14, iPadOS 14, macOS Big Sur, watchOS 7 and later
 
 1) **New app architecture**
 2) **MapView**
