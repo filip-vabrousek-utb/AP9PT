@@ -28,10 +28,9 @@
 
 SOURCE: https://www.youtube.com/watch?v=uitE6bmeFxM
 
-
+* **Widgets**
+* **More complex Grids**
 
 ## To-Do:
-1) Widgets
-2) AnnotationView
-3) More complex Grids
-4) Gauge (only on WatchOS)
+1) AnnotationView
+2) Gauge (only on WatchOS)
