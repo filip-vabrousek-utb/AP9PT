@@ -5,7 +5,7 @@
 2) **MapView**
 3) **VideoPlayer**
 4) **ScrollViewReader**
-5) **LazyVGrid, LazyVStack** (0:33)
+5) **LazyVGrid, LazyVStack**
 6) **PageView**
 8) **TextEditor**
 10) **AppStore overlay**
@@ -34,3 +34,4 @@ SOURCE: https://www.youtube.com/watch?v=uitE6bmeFxM
 1) Widgets
 2) AnnotationView
 3) More complex Grids
+4) Gauge (only on WatchOS)
