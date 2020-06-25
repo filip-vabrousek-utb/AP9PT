@@ -49,3 +49,26 @@ struct Complex_GridsApp: App {
     }
 }
 ```
+
+
+## using AppDelegate
+
+```swift
+class Delegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        print("Your code here")
+        return true
+    }
+}
+
+@main
+struct MenuApp: App {
+    @UIApplicationDelegateAdaptor(Delegate.self) var appDelegate
+    
+    var body: some Scene {
+        WindowGroup {
+          Text("Wow")
+        }
+    }
+}
+```
