@@ -29,3 +29,23 @@ struct Complex_GridsApp: App {
     }
 }
 ```
+
+
+
+## macOS
+```swift
+@main
+struct Complex_GridsApp: App {
+    @SceneBuilder var body: some Scene {
+        WindowGroup {
+            Styles()
+        }
+        
+        #if os(macOS)
+        Settings {
+            Text("Settings") // Will open in preferences
+        }
+        #endif
+    }
+}
+```
