@@ -1,4 +1,4 @@
-## New lifecycle 
+## New lifecycle - iOS, iPadOS, macOS, tvOS, multiplatform
 
 ```swift
 import SwiftUI
@@ -32,7 +32,8 @@ struct Complex_GridsApp: App {
 
 
 
-## macOS
+
+## SceneBuilder in Universal app
 ```swift
 @main
 struct Complex_GridsApp: App {
@@ -49,7 +50,6 @@ struct Complex_GridsApp: App {
     }
 }
 ```
-
 
 ## using AppDelegate
 
