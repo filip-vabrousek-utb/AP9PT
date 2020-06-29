@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  Shared
-//
-//  Created by Petr on 28.06.2020.
-//
+```swift
 
 import SwiftUI
 
@@ -145,3 +140,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().previewDevice("iPhone 11  Pro")
     }
 }
+```
