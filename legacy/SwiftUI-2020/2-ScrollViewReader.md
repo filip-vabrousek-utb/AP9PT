@@ -23,7 +23,7 @@ struct Finally: View {
 ```
 
 
-## 2nd example
+## Scroll, when you get update from database
 
 ```swift
 struct ContentView: View {
@@ -31,16 +31,17 @@ struct ContentView: View {
 
     var body: some View {
             ScrollViewReader { sproxy in
+                
                 Text("Hide").hidden().onAppear {
                     // fetch here
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                        sproxy.scrollTo(80, anchor: .bottom)
+                        sproxy.scrollTo(items.count - 1, anchor: .bottom)
                     }
                 }
                 
                 VStack {
                     Button("Add"){
-                        items.append(items.count + 2)
+                        items.append(items.count + 1)
                         sproxy.scrollTo(items.count - 1, anchor: .bottom)
                     }
                     
