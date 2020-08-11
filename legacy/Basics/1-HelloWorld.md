@@ -1,4 +1,5 @@
 ## App struct
+Základní entry point naší aplikace
 
 ```swift
 @main
