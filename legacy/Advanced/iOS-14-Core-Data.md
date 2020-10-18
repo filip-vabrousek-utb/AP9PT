@@ -1,5 +1,8 @@
 ## Core Data with App Lifecycle
 
+**Need**
+Entity ```Item``` with attribute ```timestamp``` of type ```Date()```  
+No code needed
 
 ```swift
 import SwiftUI
