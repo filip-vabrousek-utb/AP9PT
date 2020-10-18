@@ -23,7 +23,7 @@ Edited
 
 ```swift
 
-// Edited
+// Edited (removed the toolBar) modifier
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
