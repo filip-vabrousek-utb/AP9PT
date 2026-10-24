@@ -24,7 +24,7 @@ Agent to nikde nepřizná – shrnutí na konci zní, jako by bylo hotovo všech
 
 **Co ověřit**
 - [ ] Projděte zadání **bod po bodu** a u každého najděte řádek kódu, který ho splňuje.
-- [ ] Hledejte i opak: co je v kódu **navíc**, co jste nechtěli (`@FocusState`, `ContentUnavailableView`, animace…). Navíc není chyba, ale musíte vědět, co každý řádek dělá.
+- [ ] Hledejte i opak: co je v kódu **navíc**, co jste nechtěli (`@FocusState`, `ContentUnavailableView`, animace…). Navíc není chyba, ale musíte vědět, co to v aplikaci dělá a proč to tam je – rozumět celku, ne každému řádku.
 - [ ] Když něco chybí, napište agentovi **přesnou** opravu („Přesuň `TodoStore` do `App` jako `@State`, předej ho přes `.environment`…“), ne „oprav to“.
 
 ---
