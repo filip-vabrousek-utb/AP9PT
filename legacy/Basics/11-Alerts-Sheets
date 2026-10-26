@@ -1,0 +1,47 @@
+## Alert
+
+```swift
+struct AlertView: View {
+    @State var show = false
+
+    var alert: Alert {
+        Alert(title: Text("Hey there!"))
+    }
+
+    var body: some View {
+        Button("Alert") {
+            self.show.toggle()
+        }.alert(isPresented: $show) {
+            alert
+        }
+    }
+}
+```
+
+## Sheet
+```swift
+struct SheetView: View {
+    @State var show = false
+
+    var sheet: ActionSheet {
+        ActionSheet(title: Text("Hello"), message: Text("More tasks below."), buttons: [
+                    .default(Text("I am default button")) {
+                        print("Hello")
+                },
+                    .destructive(Text("I am destructive.")) {
+                        print("Something destructive.")
+                },
+                    .cancel() // "Cancel" button
+            ])
+    }
+
+
+    var body: some View {
+        Button("Sheet") {
+            self.show.toggle()
+        }.actionSheet(isPresented: $show) {
+            sheet
+        }
+    }
+}
+```
