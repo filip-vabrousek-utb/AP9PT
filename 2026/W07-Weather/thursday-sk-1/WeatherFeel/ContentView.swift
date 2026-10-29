@@ -1,3 +1,4 @@
+import MapKit
 import SwiftUI
 
 struct ContentView: View {
@@ -25,7 +26,7 @@ struct ContentView: View {
                     ProgressView().tint(.white)
                 }
 
-                Spacer()
+                if weather == nil { Spacer() }
             }
             .padding()
         }
@@ -65,6 +66,8 @@ struct ContentView: View {
                 DetailTile(title: "Humidity", value: "\(Int(weather.humidity))%", symbol: "humidity.fill")
                 DetailTile(title: "Wind", value: "\(Int(weather.windSpeed.rounded())) km/h", symbol: "wind")
             }
+
+            PlaceMap(place: place, feelsLike: weather.feelsLike)
         }
     }
 
@@ -162,6 +165,30 @@ struct DetailTile: View {
         .frame(maxWidth: .infinity)
         .padding(.vertical, 14)
         .background(.white.opacity(0.15), in: .rect(cornerRadius: 16))
+    }
+}
+
+struct PlaceMap: View {
+    let place: Place
+    let feelsLike: Double
+
+    private var coordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: place.latitude, longitude: place.longitude)
+    }
+
+    var body: some View {
+        Map(initialPosition: .region(MKCoordinateRegion(
+            center: coordinate,
+            span: MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
+        ))) {
+            Marker("\(place.name) · feels \(Int(feelsLike.rounded()))°", systemImage: "thermometer.medium", coordinate: coordinate)
+                .tint(.yellow)
+        }
+        // Recreate the map when the place changes so it recenters.
+        .id("\(place.latitude),\(place.longitude)")
+        .frame(maxHeight: .infinity)
+        .frame(minHeight: 140)
+        .clipShape(.rect(cornerRadius: 20))
     }
 }
 
