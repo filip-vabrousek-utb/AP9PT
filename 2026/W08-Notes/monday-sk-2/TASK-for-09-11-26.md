@@ -1,4 +1,8 @@
-# Notes app task
-What did the agent decide about? State, Observable (local/global state)?
-Find where a note gets deleted – and where blank notes disappear?
-By 09/11
+# Notes app – task for 9 Nov
+
+Look at our `NotesApp` (the agent's code) and answer in your notes. For every answer, give the **file and line**.
+
+1. **State:** What did the agent decide about state – `@State`, `@Observable`, local or global state?
+2. **Deleting:** Where does a note get deleted – and where do blank notes disappear?
+
+**Due:** start of the lab on 9 Nov – you get 5–10 minutes there, then we go through the answers together.
