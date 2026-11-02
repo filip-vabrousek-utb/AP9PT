@@ -16,4 +16,4 @@ Materiály ke cvičením jsou rozdělené **po týdnech** (`W01-…`, `W02-…`,
 | `thursday-sk-1` | čtvrtek 16:00 |
 | `kombi` | kombinované studium |
 
-Přednášky jsou ve složce [`presentations`](presentations). Kde je která skupina: [progress.md](progress.md).
+Přednášky jsou ve složce [`presentations`](presentations). Kde je která skupina: [progress.md](progress.md). Code review a úkoly na příští cvičení: [`reviews-and-tasks`](reviews-and-tasks).
