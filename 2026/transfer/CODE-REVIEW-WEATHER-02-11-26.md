@@ -1,4 +1,4 @@
-#  # Code review
+# Code review
 App: Weather app
 From: 26/11/26
 Date: 02/11/26
