@@ -1,4 +1,6 @@
-**Agent-in-the-loop with fundamentals first** – nové téma nejdřív ručně, pak aplikaci staví agent (Claude Code) a my čteme, co rozhodl.
+# AP9PT
+
+> **Agent-in-the-loop with fundamentals first** – nové téma nejdřív ručně, pak aplikaci staví agent (Claude Code) a my čteme, co rozhodl.
 
 # Podmínky
 1) Test v Moodle
