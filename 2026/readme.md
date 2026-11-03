@@ -17,3 +17,14 @@ Materiály ke cvičením jsou rozdělené **po týdnech** (`W01-…`, `W02-…`,
 | `kombi` | kombinované studium |
 
 Přednášky jsou ve složce [`presentations`](presentations). Kde je která skupina: [progress.md](progress.md). Code review a úkoly na příští cvičení: [`reviews-and-tasks`](reviews-and-tasks).
+
+# Stažení
+Stáhne jen složku `2026` (bez starších ročníků):
+
+```bash
+git clone --filter=blob:none --sparse https://github.com/filip-vabrousek-utb/AP9PT.git
+cd AP9PT
+git sparse-checkout set 2026
+```
+
+Aktualizace na další cvičení: `git pull` ve složce `AP9PT`.
