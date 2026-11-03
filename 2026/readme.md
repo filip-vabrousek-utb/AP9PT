@@ -25,6 +25,7 @@ Stáhne jen složku `2026` (bez starších ročníků):
 git clone --filter=blob:none --sparse https://github.com/filip-vabrousek-utb/AP9PT.git
 cd AP9PT
 git sparse-checkout set 2026
+open .
 ```
 
 Aktualizace na další cvičení: `git pull` ve složce `AP9PT`.
