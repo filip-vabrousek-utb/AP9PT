@@ -8,7 +8,7 @@ struct Note: Identifiable {
 
 struct ContentView: View {
     @State private var notes: [Note] = []
-    @State private var selection: Note.ID?
+    @State private var path: [Note.ID] = []
 
     // Oldest first.
     private var chronological: [Note] {
@@ -16,28 +16,28 @@ struct ContentView: View {
     }
 
     var body: some View {
-        NavigationSplitView {
-            List(chronological, selection: $selection) { note in
-                VStack(alignment: .leading) {
-                    Text(note.text.isEmpty ? "New Note" : note.text)
-                        .lineLimit(1)
-                    Text(note.created, format: .dateTime.day().month().hour().minute())
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+        NavigationStack(path: $path) {
+            List(chronological) { note in
+                NavigationLink(value: note.id) {
+                    VStack(alignment: .leading) {
+                        Text(note.text.isEmpty ? "New Note" : note.text)
+                            .lineLimit(1)
+                        Text(note.created, format: .dateTime.day().month().hour().minute())
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
                 }
             }
             .navigationTitle("Notes")
             .toolbar {
                 Button("Add Note", systemImage: "plus", action: addNote)
             }
-        } detail: {
-            if let index = notes.firstIndex(where: { $0.id == selection }) {
-                TextEditor(text: $notes[index].text)
-                    .padding(.horizontal)
-                    .navigationBarTitleDisplayMode(.inline)
-            } else {
-                Text("Select a note")
-                    .foregroundStyle(.secondary)
+            .navigationDestination(for: Note.ID.self) { id in
+                if let index = notes.firstIndex(where: { $0.id == id }) {
+                    TextEditor(text: $notes[index].text)
+                        .padding(.horizontal)
+                        .navigationBarTitleDisplayMode(.inline)
+                }
             }
         }
     }
@@ -45,7 +45,7 @@ struct ContentView: View {
     private func addNote() {
         let note = Note()
         notes.append(note)
-        selection = note.id
+        path.append(note.id)
     }
 }
 
