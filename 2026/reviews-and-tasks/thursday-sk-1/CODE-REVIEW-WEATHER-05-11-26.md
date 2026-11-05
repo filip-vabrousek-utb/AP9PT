@@ -12,7 +12,7 @@
 
 ## Where is the error/empty state shown in the UI?
 
-- **Error handling:**
+- **Empty/loading state:**
 
   ```swift
   } else {
@@ -23,3 +23,26 @@
   ```
 
   - Where: [ContentView.swift, lines 25–29](https://github.com/filip-vabrousek-utb/AP9PT/blob/main/2026/W07-Weather/thursday-sk-1/WeatherFeel/ContentView.swift#L25-L29)
+- **Error state:** `Text(errorMessage).foregroundStyle(.white)`
+  - Where: [ContentView.swift, line 24](https://github.com/filip-vabrousek-utb/AP9PT/blob/main/2026/W07-Weather/thursday-sk-1/WeatherFeel/ContentView.swift#L24)
+- **Assigned to local state:**
+
+  ```swift
+  do {
+      let found = try await service.findPlace(trimmed)
+      let current = try await service.currentWeather(for: found)
+      withAnimation {
+          place = found
+          weather = current
+          errorMessage = nil
+      }
+  } catch {
+      withAnimation {
+          place = nil
+          weather = nil
+          errorMessage = error.localizedDescription
+      }
+  }
+  ```
+
+  - Where: [ContentView.swift, lines 89–103](https://github.com/filip-vabrousek-utb/AP9PT/blob/main/2026/W07-Weather/thursday-sk-1/WeatherFeel/ContentView.swift#L89-L103)
