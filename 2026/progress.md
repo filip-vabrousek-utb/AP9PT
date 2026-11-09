@@ -127,7 +127,7 @@ Než schválíte kód od agenta: **[Na co si dát pozor, když kód píše agent
 | Skupina | Datum | Co probereme | Stav |
 |---|---|---|:---:|
 | `monday-sk-1` · Po 10:00 | 9. 11. | Recipe Book od agenta 🟠: recepty s ingrediencemi a fotkou v SwiftData, filtr podle kategorie, seznam → detail. Ručně: `@Model`, `@Query` se řazením podle data, `insert` z tlačítka. Otázky ke kódu Notes z minulého týdne (stav, filtrování, navigace) | 🟩 |
-| `monday-sk-2` · Po 14:00 | 9. 11. | Recipe Book od agenta 🟠: recepty s fotkou, ingrediencemi a postupem v SwiftData, mřížka na první obrazovce, oblíbené v samostatné záložce, filtr podle kategorie. Ručně: `@Model`, `@Query` s řazením podle data vytvoření, `insert` z tlačítka. Otázky ke kódu Notes z minulého týdne (stav, mazání) | 🟩 |
+| `monday-sk-2` · Po 14:00 | 9. 11. | Recipe Book od agenta 🟠: recepty s fotkou, ingrediencemi a postupem v SwiftData, mřížka na první obrazovce, oblíbené v samostatné záložce, filtr podle kategorie. Ručně: `@Model`, `@Query` s řazením podle data vytvoření, `insert` z tlačítka. Otázky ke kódu Notes z minulého týdne (stav, mazání). Code review Recipe Book: ukládání a mazání | 🟩 |
 | `tuesday-sk-1` · Út 10:00 | 10. 11. | Recipe Book: `@Model`, `@Query`, vazby; test restartu – data musí přežít zavření aplikace. Ručně: `@Model` a `@Query` | ⬜ |
 | `tuesday-sk-2` · Út 15:00 | 10. 11. | Recipe Book: `@Model`, `@Query`, vazby; test restartu – data musí přežít zavření aplikace. Ručně: `@Model` a `@Query` | ⬜ |
 | `thursday-sk-1` · Čt 16:00 | 12. 11. | Recipe Book: `@Model`, `@Query`, vazby; test restartu – data musí přežít zavření aplikace. Ručně: `@Model` a `@Query` | ⬜ |
