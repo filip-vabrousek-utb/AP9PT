@@ -1,0 +1,15 @@
+name: NavigaceJadro
+options:
+  deploymentTarget:
+    iOS: "27.0"
+targets:
+  NavigaceJadro:
+    type: application
+    platform: iOS
+    sources: [NavigaceJadro]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: cz.utb.ap9pt.NavigaceJadro
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
