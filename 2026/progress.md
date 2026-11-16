@@ -162,11 +162,11 @@ Než schválíte kód od agenta: **[Na co si dát pozor, když kód píše agent
 
 | Skupina | Datum | Co probereme | Stav |
 |---|---|---|:---:|
-| `monday-sk-1` · Po 10:00 | 30. 11. | Semestrální projekt ve škole: téma a specifikace (PRD), práce s agentem | ⬜ |
-| `monday-sk-2` · Po 14:00 | 30. 11. | Semestrální projekt ve škole: téma a specifikace (PRD), práce s agentem | ⬜ |
-| `tuesday-sk-1` · Út 10:00 | 1. 12. | Semestrální projekt ve škole: téma a specifikace (PRD), práce s agentem | ⬜ |
-| `tuesday-sk-2` · Út 15:00 | 1. 12. | Semestrální projekt ve škole: téma a specifikace (PRD), práce s agentem | ⬜ |
-| `thursday-sk-1` · Čt 16:00 | 3. 12. | Semestrální projekt ve škole: téma a specifikace (PRD), práce s agentem | ⬜ |
+| `monday-sk-1` · Po 10:00 | 30. 11. | Semestrální projekt ve škole: výběr tématu (nejlépe rozšíření vlastní aplikace z týdne 10 nebo 11), specifikace (PRD), práce s agentem 🟠. Požadavky: SwiftUI, `@Observable` nebo SwiftData, aspoň jeden App Intent | ⬜ |
+| `monday-sk-2` · Po 14:00 | 30. 11. | Semestrální projekt ve škole: výběr tématu (nejlépe rozšíření vlastní aplikace z týdne 10 nebo 11), specifikace (PRD), práce s agentem 🟠. Požadavky: SwiftUI, `@Observable` nebo SwiftData, aspoň jeden App Intent | ⬜ |
+| `tuesday-sk-1` · Út 10:00 | 1. 12. | Semestrální projekt ve škole: výběr tématu (nejlépe rozšíření vlastní aplikace z týdne 10 nebo 11), specifikace (PRD), práce s agentem 🟠. Požadavky: SwiftUI, `@Observable` nebo SwiftData, aspoň jeden App Intent | ⬜ |
+| `tuesday-sk-2` · Út 15:00 | 1. 12. | Semestrální projekt ve škole: výběr tématu (nejlépe rozšíření vlastní aplikace z týdne 10 nebo 11), specifikace (PRD), práce s agentem 🟠. Požadavky: SwiftUI, `@Observable` nebo SwiftData, aspoň jeden App Intent | ⬜ |
+| `thursday-sk-1` · Čt 16:00 | 3. 12. | Semestrální projekt ve škole: výběr tématu (nejlépe rozšíření vlastní aplikace z týdne 10 nebo 11), specifikace (PRD), práce s agentem 🟠. Požadavky: SwiftUI, `@Observable` nebo SwiftData, aspoň jeden App Intent | ⬜ |
 | `kombi` | upřesníme | Sobotní blok 3 (týdny 8–12) | ⬜ |
 | Přednáška · Út 12:00 | 1. 12. | Místo přednášky práce na semestrálním projektu (konzultace) | ⬜ |
 
@@ -174,11 +174,11 @@ Než schválíte kód od agenta: **[Na co si dát pozor, když kód píše agent
 
 | Skupina | Datum | Co probereme | Stav |
 |---|---|---|:---:|
-| `monday-sk-1` · Po 10:00 | 7. 12. | Semestrální projekt ve škole: práce s agentem, průběžná kontrola | ⬜ |
-| `monday-sk-2` · Po 14:00 | 7. 12. | Semestrální projekt ve škole: práce s agentem, průběžná kontrola | ⬜ |
-| `tuesday-sk-1` · Út 10:00 | 8. 12. | Semestrální projekt ve škole: práce s agentem, průběžná kontrola | ⬜ |
-| `tuesday-sk-2` · Út 15:00 | 8. 12. | Semestrální projekt ve škole: práce s agentem, průběžná kontrola | ⬜ |
-| `thursday-sk-1` · Čt 16:00 | 10. 12. | Semestrální projekt ve škole: práce s agentem, průběžná kontrola | ⬜ |
+| `monday-sk-1` · Po 10:00 | 7. 12. | Semestrální projekt ve škole: PRD a akceptační kritéria ukázat vyučujícímu, práce s agentem 🟠; kontrola: jde build, je v aplikaci datový model (`@Observable` nebo SwiftData); rozpracovaná verze do `2026/W13-Project/<skupina>/<jméno>/` | ⬜ |
+| `monday-sk-2` · Po 14:00 | 7. 12. | Semestrální projekt ve škole: PRD a akceptační kritéria ukázat vyučujícímu, práce s agentem 🟠; kontrola: jde build, je v aplikaci datový model (`@Observable` nebo SwiftData); rozpracovaná verze do `2026/W13-Project/<skupina>/<jméno>/` | ⬜ |
+| `tuesday-sk-1` · Út 10:00 | 8. 12. | Semestrální projekt ve škole: PRD a akceptační kritéria ukázat vyučujícímu, práce s agentem 🟠; kontrola: jde build, je v aplikaci datový model (`@Observable` nebo SwiftData); rozpracovaná verze do `2026/W13-Project/<skupina>/<jméno>/` | ⬜ |
+| `tuesday-sk-2` · Út 15:00 | 8. 12. | Semestrální projekt ve škole: PRD a akceptační kritéria ukázat vyučujícímu, práce s agentem 🟠; kontrola: jde build, je v aplikaci datový model (`@Observable` nebo SwiftData); rozpracovaná verze do `2026/W13-Project/<skupina>/<jméno>/` | ⬜ |
+| `thursday-sk-1` · Čt 16:00 | 10. 12. | Semestrální projekt ve škole: PRD a akceptační kritéria ukázat vyučujícímu, práce s agentem 🟠; kontrola: jde build, je v aplikaci datový model (`@Observable` nebo SwiftData); rozpracovaná verze do `2026/W13-Project/<skupina>/<jméno>/` | ⬜ |
 | `kombi` | – | – | – |
 | Přednáška · Út 12:00 | 8. 12. | Místo přednášky práce na semestrálním projektu (konzultace) | ⬜ |
 
@@ -188,11 +188,11 @@ V tomto týdnu je **každý den jeden termín testu** (20 min). Časy upřesním
 
 | Skupina | Datum | Co probereme | Stav |
 |---|---|---|:---:|
-| `monday-sk-1` · Po 10:00 | 14. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
-| `monday-sk-2` · Po 14:00 | 14. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
-| `tuesday-sk-1` · Út 10:00 | 15. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
-| `tuesday-sk-2` · Út 15:00 | 15. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
-| `thursday-sk-1` · Čt 16:00 | 17. 12. | Semestrální projekt ve škole: dokončení, vlastní review a **odevzdání** | ⬜ |
+| `monday-sk-1` · Po 10:00 | 14. 12. | Semestrální projekt ve škole: dokončení; kontrola: data přežijí zavření aplikace, App Intent je vidět ve Zkratkách; vlastní review (`REVIEW.md` – co rozhodl agent a jak jste to ověřili) a **odevzdání** | ⬜ |
+| `monday-sk-2` · Po 14:00 | 14. 12. | Semestrální projekt ve škole: dokončení; kontrola: data přežijí zavření aplikace, App Intent je vidět ve Zkratkách; vlastní review (`REVIEW.md` – co rozhodl agent a jak jste to ověřili) a **odevzdání** | ⬜ |
+| `tuesday-sk-1` · Út 10:00 | 15. 12. | Semestrální projekt ve škole: dokončení; kontrola: data přežijí zavření aplikace, App Intent je vidět ve Zkratkách; vlastní review (`REVIEW.md` – co rozhodl agent a jak jste to ověřili) a **odevzdání** | ⬜ |
+| `tuesday-sk-2` · Út 15:00 | 15. 12. | Semestrální projekt ve škole: dokončení; kontrola: data přežijí zavření aplikace, App Intent je vidět ve Zkratkách; vlastní review (`REVIEW.md` – co rozhodl agent a jak jste to ověřili) a **odevzdání** | ⬜ |
+| `thursday-sk-1` · Čt 16:00 | 17. 12. | Semestrální projekt ve škole: dokončení; kontrola: data přežijí zavření aplikace, App Intent je vidět ve Zkratkách; vlastní review (`REVIEW.md` – co rozhodl agent a jak jste to ověřili) a **odevzdání** | ⬜ |
 | `kombi` | upřesníme | Termín upřesníme | ⬜ |
 | Přednáška · Út 12:00 | 15. 12. | Otázky ke státní závěrečné zkoušce (iOS jako platforma; návrh UI – Storyboard, UIKit, SwiftUI), pak práce na semestrálním projektu | ⬜ |
 
@@ -202,4 +202,5 @@ V tomto týdnu je **každý den jeden termín testu** (20 min). Časy upřesním
 - Swift concurrency (`async`/`await`, `Task`) a `Codable` (původně plánované na 2. týden) jsme přesunuli do 9. týdne (Weather).
 - **Ručně** = krátký příklad, který píšeme spolu bez agenta. Sada ručních příkladů je v každém týdnu stejná pro všechny skupiny.
 - Všechno, včetně semestrálního projektu, děláme **ve škole** – doma na Macu pracovat nemusíte.
+- **Semestrální projekt** musí mít: SwiftUI, `@Observable` nebo SwiftData a aspoň jeden App Intent. AI funkce povinná není.
 - **Předmět ukončíte buď testem, nebo projektem** (obhajoba). Termíny testu: v posledním týdnu (14.–17. 12.) každý den jeden, časy upřesníme. Termíny obhajob upřesníme.
