@@ -1,0 +1,12 @@
+# W10 — Habit Tracker (App Intents)
+
+Slovo agenta 🟠 = tuhle část kódu napsal agent (Claude Code); ostatní jste psali ručně.
+
+**Týden 10 · 16.–20. 11. 2026** · fáze 3 — *naučit se architektovat* (zadání pro agenta je krátké, kritéria a ověření jsou vaše)
+
+Co se učíme: App Intents – akce aplikace, kterou vidí systém (Zkratky, Spotlight, Siri): `AppIntent`, `perform()`,
+odpověď s větou přes `ProvidesDialog`, `AppShortcutsProvider` s frází. Cvičení: Habit Tracker od agenta, akceptační test klikáním.
+
+| Skupina | Datum | Kód |
+|---|---|---|
+| `monday-sk-1/` — pondělí 10:00 | 16. 11. | `v1/16-11-26-sk1` (`OurIntent.swift`: nejmenší `AppIntent` `MarkDoneIntent` s názvem ve Zkratkách a odpovědí „Done. Habit completed.“ přes `ProvidesDialog` a `AppShortcutsProvider` s frází „Mark habit done in …“ – psané ručně; intent zatím nic neukládá, `ContentView.swift` je šablona „Hello, world!“) |
