@@ -1,0 +1,16 @@
+name: 16-11-26-sk1
+options:
+  bundleIdPrefix: cz.utb.ap9pt
+targets:
+  16-11-26-sk1:
+    type: application
+    supportedDestinations: [iOS, macOS]
+    deploymentTarget:
+      iOS: "27.0"
+      macOS: "27.0"
+    sources: [16-11-26-sk1]
+    settings:
+      SWIFT_VERSION: "5"
+      GENERATE_INFOPLIST_FILE: YES
+      ASSETCATALOG_COMPILER_APPICON_NAME: ""
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
