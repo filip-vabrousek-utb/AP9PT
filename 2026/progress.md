@@ -142,7 +142,7 @@ Než schválíte kód od agenta: **[Na co si dát pozor, když kód píše agent
 | `monday-sk-2` · Po 14:00 | 16. 11. | App Intents: ručně nejmenší `AppIntent` s odpovědí (`ProvidesDialog`) a `AppShortcutsProvider`, spuštění ve Zkratkách; pak intent s chováním – aplikace s jednou důležitou věcí v `UserDefaults`, kterou intent označí jako hotovou (`@AppStorage` v UI), a code review. Platformy: jedna aplikace pro iOS i Mac – `#if os(macOS)` při překladu, `if #available` za běhu, iPad rozlišený za běhu přes `userInterfaceIdiom` | 🟩 |
 | `tuesday-sk-1` · Út 10:00 | 17. 11. | Státní svátek – cvičení odpadá; jak ho doženeme, upřesníme |  |
 | `tuesday-sk-2` · Út 15:00 | 17. 11. | Státní svátek – cvičení odpadá; jak ho doženeme, upřesníme |  |
-| `thursday-sk-1` · Čt 16:00 | 19. 11. | App Intents: `MarkDoneIntent` s odpovědí (`ProvidesDialog`) a `AppShortcutsProvider` se dvěma frázemi, spuštění ve Zkratkách; aplikace „My Task“ s jedním úkolem v `UserDefaults` (`TaskStore`) – intent úkol označí jako hotový a odpoví větou, bez úkolu nebo u hotového úkolu odpoví, proč nic nedělá; UI čte stejná data přes `@AppStorage` | 🟩 |
+| `thursday-sk-1` · Čt 16:00 | 19. 11. | App Intents: `MarkDoneIntent` s odpovědí (`ProvidesDialog`) a `AppShortcutsProvider` se dvěma frázemi, spuštění ve Zkratkách; aplikace „My Task“ s jedním úkolem v `UserDefaults` (`TaskStore`) – intent úkol označí jako hotový a odpoví větou, bez úkolu nebo u hotového úkolu odpoví, proč nic nedělá; UI čte stejná data přes `@AppStorage`; code review (`guard`) | 🟩 |
 | `kombi` | upřesníme | Zbytek bloku 2: Weather – síť a concurrency (`URLSession`, `Codable`, `async`/`await`), látka týdne 7 | ⬜ |
 | Přednáška · Út 12:00 | 17. 11. | Státní svátek – přednáška odpadá | |
 
