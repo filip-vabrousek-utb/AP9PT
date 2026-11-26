@@ -1,0 +1,16 @@
+name: 26-11-26-sk1
+options:
+  bundleIdPrefix: cz.utb.ap9pt
+targets:
+  26-11-26-sk1:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: [26-11-26-sk1]
+    settings:
+      base:
+        SWIFT_VERSION: "5"
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        PRODUCT_BUNDLE_IDENTIFIER: cz.utb.ap9pt.todo-26-11-26-sk1
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
